@@ -2,11 +2,11 @@
 -- This is the main file you should require in your game
 -- All api calls are documented here: https://docs.microsoft.com/gaming/playfab/api-references/
 -- Example code:
--- local PlayFabCloudScriptApi = require("PlayFab.PlayFabCloudScriptApi")
+-- local PlayFabCloudScriptApi = require("PlayFab/PlayFabCloudScriptApi")
 -- PlayFabCloudScriptApi.<CloudScriptApiCall>(request, successCallbackFunc, errorCallbackFunc)
 
-local IPlayFabHttps = require("PlayFab.IPlayFabHttps")
-local PlayFabSettings = require("PlayFab.PlayFabSettings")
+local IPlayFabHttps = require("PlayFab/IPlayFabHttps")
+local PlayFabSettings = require("PlayFab/PlayFabSettings")
 
 local PlayFabCloudScriptApi = {
     settings = PlayFabSettings.settings

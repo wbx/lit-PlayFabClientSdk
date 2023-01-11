@@ -2,11 +2,11 @@
 -- This is the main file you should require in your game
 -- All api calls are documented here: https://docs.microsoft.com/gaming/playfab/api-references/
 -- Example code:
--- local PlayFabEconomyApi = require("PlayFab.PlayFabEconomyApi")
+-- local PlayFabEconomyApi = require("PlayFab/PlayFabEconomyApi")
 -- PlayFabEconomyApi.<EconomyApiCall>(request, successCallbackFunc, errorCallbackFunc)
 
-local IPlayFabHttps = require("PlayFab.IPlayFabHttps")
-local PlayFabSettings = require("PlayFab.PlayFabSettings")
+local IPlayFabHttps = require("PlayFab/IPlayFabHttps")
+local PlayFabSettings = require("PlayFab/PlayFabSettings")
 
 local PlayFabEconomyApi = {
     settings = PlayFabSettings.settings

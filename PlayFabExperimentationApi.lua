@@ -2,11 +2,11 @@
 -- This is the main file you should require in your game
 -- All api calls are documented here: https://docs.microsoft.com/gaming/playfab/api-references/
 -- Example code:
--- local PlayFabExperimentationApi = require("PlayFab.PlayFabExperimentationApi")
+-- local PlayFabExperimentationApi = require("PlayFab/PlayFabExperimentationApi")
 -- PlayFabExperimentationApi.<ExperimentationApiCall>(request, successCallbackFunc, errorCallbackFunc)
 
-local IPlayFabHttps = require("PlayFab.IPlayFabHttps")
-local PlayFabSettings = require("PlayFab.PlayFabSettings")
+local IPlayFabHttps = require("PlayFab/IPlayFabHttps")
+local PlayFabSettings = require("PlayFab/PlayFabSettings")
 
 local PlayFabExperimentationApi = {
     settings = PlayFabSettings.settings

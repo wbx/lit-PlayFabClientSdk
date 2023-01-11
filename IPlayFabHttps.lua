@@ -22,10 +22,10 @@
 --
 -- 11-Jan-2023 - Changed _defaultHttpsFile to PlayFabHttps_CoroHttp
 
-local PlayFabSettings = require("PlayFab.PlayFabSettings")
+local PlayFabSettings = require("PlayFab/PlayFabSettings")
 
 local IPlayFabHttps = {
-    _defaultHttpsFile = "PlayFab.PlayFabHttps_CoroHttp", -- implied .lua
+    _defaultHttpsFile = "PlayFab/PlayFabHttps_CoroHttp", -- implied .lua
     _internalHttp = nil,
 }
 

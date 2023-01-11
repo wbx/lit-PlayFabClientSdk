@@ -7,7 +7,7 @@
 local http = require("coro-http")
 
 local json = require("json")
-local PlayFabSettings = require("PlayFab.PlayFabSettings")
+local PlayFabSettings = require("PlayFab/PlayFabSettings")
 
 local PlayFabHttps_CoroHttp = {
 }
