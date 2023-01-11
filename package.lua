@@ -4,7 +4,8 @@ return {
     description = "PlayFab Client SDK modified for luvit/lit use, with optional coro-style wrapper.",
     license = "Apache License 2.0",
     dependencies = {
-        "creationix/coro-http"
+        "creationix/coro-http",
+        "luvit/secure-socket"
     },
     files = {
         "LICENSE",
